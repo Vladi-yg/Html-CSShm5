@@ -1,0 +1,277 @@
+body {
+    background-color: #f8f8f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu li {
+    list-style: none;
+    font-size: 20px;
+
+}
+.specifications {
+    list-style: none;
+}
+
+.discription {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.shortds {
+    color:  #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.specifications, .longds {color: #484343;}
+.longds {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+.field {
+    height: 15px;
+    width: 150px;
+    text-transform: capitalize;
+}
+.inffield {
+    font-size: 18px;
+    color: #484343;
+}
+header {text-align: center;}
+footer{text-align: center;}
+.catalogpage {border: 2px solid silver;}
+.emailfield {
+    height: 15px;
+    width: 150px;
+}
+.emailfield:focus {
+    border-color: rgb(255, 136, 0);
+    color: black;
+}
+.Logo {
+    float: left;
+}
+.headermenu {
+    float: right;
+}
+.menu {
+    display: flex;
+}
+.menulink {
+    display: block;
+    padding: 8px 16px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #f8f8f8;
+    background-color: grey;
+}
+.menulink:hover {
+    color: rgb(255, 136, 0);
+}
+.menuinside {
+    flex-direction: column;
+    padding: 0;
+    display: none;
+}
+.menublock:hover .menuinside{
+    display: flex;
+}
+.bigblock {
+    height: 760px;
+    width: 73%;
+    margin-top: 3%;
+    margin-left: 2%;
+    float: left;
+    margin-right: 1%;
+    background-color: white;
+}
+.manegment {
+    height: 750px;
+    width: 21%;
+    margin-top: 3%;
+    float: left;
+    background-color: tomato;
+    margin-left: 1%;
+
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 2%;
+    float: left;
+    background-color: grey;
+    font-family: Times, Times New Roman, serif;
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+}
+.footer::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.footertitle {
+  display: inline-block;
+  vertical-align: middle;
+}
+.section {
+    width: 25%;
+    height: 760px;
+    background-color: rgb(233, 233, 233);  
+    float: left;
+    margin-right: 1%;
+    color: black;
+    font-family: Times, Times New Roman, serif;
+    font-size: 23px;
+    padding-left: 10px;
+}
+.news {
+   height: 760px;
+   width: 73%;
+   float: left;
+   background-color: rgb(233, 233, 233);  
+   font-family:  Times, Times New Roman, serif;
+}
+.news p {
+    font-size: 16px;
+  }
+ .text {
+      font-size: 10px;
+  }
+  .section ul {
+      font-size: 16px;
+      padding-left: 0;
+  }
+  .article {
+      list-style-type: none;
+      text-decoration: none;
+  }
+  .article:hover {color: rgb(255, 136, 0);}
+  .topic {
+      list-style-type: none;
+  }
+  .headtitle {
+      padding-left: 10px;
+  }
+  .about {
+    margin-top: 240px; 
+    float: top;
+ }
+  .adress {
+      float: top;
+  }
+  .logopage {
+      padding-left: 30px;
+  }
+  .homeimage:hover {
+    border: 2px solid rgb(255, 136, 0);  
+  }
+  .text-article {
+      padding-left: 6px;
+  }
+  .registration {
+    margin-top: 240px;
+    float: top;
+  }
+  .send:hover {
+    border: 1px solid rgb(255, 136, 0);
+  }
+  .catalog {
+      margin-top: 8%;
+      margin-left: 3%;
+      margin-right: 1%;
+      float: top;
+      widows: 96%;
+      height:1000px;
+      background-color: #f8f8f8;
+  }
+  .sort {
+      width: 200px;
+      height: 398px;
+      background-color: indianred;
+      float: left;
+  }
+  .filters {
+      width: 200px;
+      height: 125px;
+      background-color:rgb(240, 240, 240);
+      border-right: 1px solid black;
+  }
+  .brandtitle {
+      padding-left: 6px;
+      padding-top: 4px;
+      font-size: 18px;
+      font-family: Times, Times New Roman, serif;
+  }
+  .brandul {
+      list-style-type: none;
+  }
+  .brandlist {
+    text-decoration: none;
+    color: black;
+  }
+  .brandlist:hover {
+    color: rgb(255, 136, 0);
+  }
+.chekboxes {
+    margin-top: 20px;
+    width: 200px;
+    height: 255px;
+    background-color: rgb(240, 240, 240);
+    border-right: 1px solid black;
+}
+.chektitle {
+    padding-left: 6px;
+}
+.sortbutton {
+    font-family: 'Times New Roman', Times, serif;
+}
+.sortbutton:hover {
+    border: 1px solid rgb(255, 136, 0);
+}
+.produkts {
+    margin-left: 3%;
+    height: 1000px;
+    width: 800px;
+    background-color: indianred;
+    float: left;
+}
+.produktname {
+    width: 800px;
+    height: 22px;
+    background-color: rgb(240, 240, 240);
+    font-size: 22px;
+    padding-left: 4px;
+    float: top;
+}
+.assortment {
+    margin-top: 20px;
+    width: 800px;
+    height: 915px;
+    background-color: rgb(240, 240, 240);
+    float: top;
+}
+.laptop {
+    background-color: lavender;
+    width: 200px;
+    height: 310px;
+    margin-top: 20px;
+}
+.order {
+    height: 330px;
+    width: 800px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    float: top;
+}
+.catalogprodukt {
+    margin-top: 8%;
+    float: top;
+}
+
